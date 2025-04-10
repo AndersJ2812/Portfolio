@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: lightgrey;
+
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.logo img {
+  height: 50px;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hero-sektion */
+.hero {
+  display: flex;
+/*   justify-content: space-around; */
+  align-items: center;
+
+  background-color: black;
+}
+
+.hero-content {
+  width: 50%;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 0% 100%);
+  background-color: lightgray;
+  padding: 100px 20px;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 15%;
+padding: 90px;
+}
+
+.social-icons img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.linkedin-knap {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  /* Samme mørke farve som GitHub-knappen */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  /* Fjern eventuel margin-left, hvis de ikke skal have mellemrum */
+}
+
+.linkedin-knap:hover {
+  background-color: #555;
+  /* Samme hover-effekt som GitHub-knappen */
+}
+
+.github-knap {
+  display: inline-block;
+  /* Får dem til at ligge ved siden af hinanden */
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right:
+  /* Tilføjer mellemrum til højre for hver knap */
+}
+
+.github-knap:hover {
+  background-color: #555;
+}
+
+.cv-knap {
+  display: inline-block;
+  /* Får dem til at ligge ved siden af hinanden */
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  /* Tilføjer mellemrum til højre for hver knap */
+}
+
+.cv-knap:hover {
+  background-color: #555;
+}
+
+
+.om-mig {
+  text-align: left;
+  padding: 50px 20px;
+  max-width: 1800px;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+}
+
+.om-mig-inner {
+  flex-direction: column;
+  display: flex;
+  max-width: 700px;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  text-align: center;
+
+;
+}
+
+.service {
+  max-width: 300px;
+}
+
+
+.evner {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.evner-liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.evne {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* Erfaring */
+.erfaring {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.erfaring-liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.erfaring-emne {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* Læring */
+.laering {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.laering-liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.laering-emne {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* Sprog */
+.sprog {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.sprog-liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sprog-emne {
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
