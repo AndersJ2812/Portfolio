@@ -6,7 +6,6 @@ body {
   padding: 0;
   color: #333;
   background-color: lightgrey;
-
 }
 
 header {
@@ -38,7 +37,7 @@ nav a {
 /* Hero-sektion */
 .hero {
   display: flex;
-/*   justify-content: space-around; */
+  /*   justify-content: space-around; */
   align-items: center;
 
   background-color: black;
@@ -54,7 +53,7 @@ nav a {
 .hero-image img {
   max-width: 400px;
   border-radius: 15%;
-padding: 90px;
+  padding: 100px;
 }
 
 .social-icons img {
@@ -93,7 +92,7 @@ padding: 90px;
   border: none;
   cursor: pointer;
   margin-right:
-  /* Tilføjer mellemrum til højre for hver knap */
+    /* Tilføjer mellemrum til højre for hver knap */
 }
 
 .github-knap:hover {
@@ -121,12 +120,12 @@ padding: 90px;
 
 
 .om-mig {
-  text-align: left;
+  text-align: center;
   padding: 50px 20px;
-  max-width: 1800px;
+  max-width: 100%;
   justify-content: center;
   display: flex;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .om-mig-inner {
@@ -134,16 +133,15 @@ padding: 90px;
   display: flex;
   max-width: 700px;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
+  font-size: 25px;
 }
 
 .services {
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
-
-;
 }
 
 .service {
@@ -154,24 +152,59 @@ padding: 90px;
 .evner {
   text-align: center;
   padding: 50px 20px;
-}
-
-.evner-liste {
   display: flex;
   flex-wrap: wrap;
+  /* Tillader elementer at bryde til næste linje */
+  /* Fjern justify-content: space-between; da det skaber uensartet afstand */
+  border-radius: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+.evner-sub {
+  display: flex;
   justify-content: center;
+
+  flex-wrap: wrap;
+  width: 800px;
 }
 
+.evner-item {
+  width: 25%;
+}
+
+.evner-item img {
+  height: 50px;
+  width: 50px;
+}
+
+.evner-block {
+  background-color: lightgray;
+  height: 100px;
+  width: calc(25% - 20px);
+  /* Justeret bredde for at tage højde for margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  /* Tilføj margin omkring hvert block for mellemrum */
+  box-sizing: border-box;
+  /* Sikrer at padding og border er inkluderet i bredden */
+}
 .evne {
   background-color: #f4f4f4;
-  padding: 10px 20px;
-  margin: 10px;
-  border-radius: 5px;
 }
 
 /* Erfaring */
 .erfaring {
   text-align: center;
+  padding: 50px 20px;
+  justify-content: center;
+  display: flex;
+}
+.overskrift-center {
+  text-align: center;
+  justify-content: center;
+  display: flex;
   padding: 50px 20px;
 }
 
@@ -184,7 +217,6 @@ padding: 90px;
 .erfaring-emne {
   background-color: #f4f4f4;
   padding: 10px 20px;
-  margin: 10px;
   border-radius: 5px;
 }
 
@@ -193,18 +225,29 @@ padding: 90px;
   text-align: center;
   padding: 50px 20px;
 }
-
 .laering-liste {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .laering-emne {
   background-color: #f4f4f4;
   padding: 10px 20px;
-  margin: 10px;
   border-radius: 5px;
+}
+
+.laering-sub {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 800px;
+}
+.laering-item {
+  width: 25%;
+}
+.laering-item img {
+  height: 50px;
+  width: 50px;
 }
 
 /* Sprog */
@@ -225,6 +268,32 @@ padding: 90px;
   margin: 10px;
   border-radius: 5px;
 }
+
+.sprog-sub {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 800px;
+}
+.sprog-item {
+  width: 25%;
+}
+.sprog-item img {
+  height: auto;
+  width: 60px;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+
+
+
+
+
+
 
 /* Footer */
 footer {
