@@ -289,6 +289,83 @@ nav a {
 }
 
 
+.portfolio_boxes {
+  width: var(--width-12col);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* To kolonner */
+  gap: 20px;
+}
+
+.category_content_box_one {
+  width: 30%;
+  height: 180px;
+  grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center; /* Hvis indholdet skal være centreret */
+    margin-left: 130px;
+}
+
+.category_content_box_two {
+  width: 15%;
+  height: 240px;
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  justify-content: start; /* Justerer indholdet vandret */
+  align-items: center; /* Justerer indholdet lodret */
+  text-align: center; /* Hvis indholdet skal være centreret */
+}
+
+
+
+.category_content_box_three {
+  width: 15%;
+  height: 80px;
+  background-color: var(--background-color-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category_content_box_four {
+  width: 15%;
+  height: 80px;
+  background-color: var(--background-color-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category_content_box_five {
+  width: 15%;
+  height: 80px;
+  background-color: var(--background-color-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category_content_box_six {
+  background-color: var(--background-color-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Du kan justere max-height på selve boksen, hvis det er nødvendigt for layoutet */
+    /* max-height: 300px; */
+}
+
+.category_content_box_img  {
+  max-width: 80%; /* Juster denne værdi for at gøre billedet smallere */
+  max-height: 80%;
+ 
+}
+
+
+
+
 
 
 
