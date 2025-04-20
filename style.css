@@ -48,7 +48,8 @@ nav a {
 }
 
 .hero-image {
-  text-align: left; /* Standard desktop justering */
+  text-align: left;
+  /* Standard desktop justering */
 }
 
 .hero-image img {
@@ -58,7 +59,8 @@ nav a {
 }
 
 .social-icons {
-  text-align: left; /* Standard desktop justering */
+  text-align: left;
+  /* Standard desktop justering */
   margin-top: 0;
 }
 
@@ -68,7 +70,8 @@ nav a {
 }
 
 .knapper {
-  text-align: left; /* Standard desktop justering */
+  text-align: left;
+  /* Standard desktop justering */
   margin-top: 0;
 }
 
@@ -85,8 +88,10 @@ nav a {
   border: none;
   cursor: pointer;
   margin-right: 10px;
-  width: auto; /* Standard desktop bredde */
-  margin-bottom: 0; /* Standard desktop margin */
+  width: auto;
+  /* Standard desktop bredde */
+  margin-bottom: 0;
+  /* Standard desktop margin */
 }
 
 .linkedin-knap:hover,
@@ -646,14 +651,17 @@ footer {
     width: 100%;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    margin-top: 30px !important; /* Øg top margin for mere afstand */
-    margin-bottom: 30px !important; /* Øg bund margin for mere afstand */
+    margin-top: 30px !important;
+    /* Øg top margin for mere afstand */
+    margin-bottom: 30px !important;
+    /* Øg bund margin for mere afstand */
     float: none !important;
     text-align: center;
     min-height: 100px;
     box-sizing: border-box;
     padding: 15px;
-    border: 1px solid lightgray; /* Tilføj en let border for at visuelt adskille dem (kan fjernes) */
+    border: 1px solid lightgray;
+    /* Tilføj en let border for at visuelt adskille dem (kan fjernes) */
   }
 
   .category_content_box_one img,
@@ -662,127 +670,132 @@ footer {
   .category_content_box_img {
     max-width: 95%;
     height: auto;
-    max-height: 200px; /* Juster max-højde efter behov */
+    max-height: 200px;
+    /* Juster max-højde efter behov */
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-top: 10px !important;
+    margin-top: -5px !important;
   }
 
   .category_content_box_four img {
     max-width: 95%;
     height: auto;
-    max-height: 250px; /* Juster max-højde efter behov */
+    max-height: 250px;
+    /* Juster max-højde efter behov */
     margin-left: auto !important;
     margin-right: auto !important;
     margin-top: 10px !important;
   }
 
   .category_content_box_five iframe {
-    .category_content_box_five iframe 
-      display: block !important;
-      width: 95% !important; /* Behold næsten fuld bredde */
-      height: auto !important; /* Lad højden skalere automatisk */
-      max-width: 100% !important;
-      /* Juster max-height for at gøre den mere firkantet. */
-      /* Prøv et forhold tættere på 1:1. */
-      max-height: calc(95vw * 0.9); /* Højde baseret på bredden */
-      margin-left: auto !important;
-      margin-right: auto !important;
-      margin-top: 20px !important; /* Juster margin for afstand */
-}
+    .category_content_box_five iframe display: block !important;
+    width: 100% !important;
+    /* Behold næsten fuld bredde */
+    height: auto !important;
+    /* Lad højden skalere automatisk */
+    max-width: 600px !important;
+    /* Juster max-height for at gøre den mere firkantet. */
+    /* Prøv et forhold tættere på 1:1. */
+    max-height: 600px;
+    /* Højde baseret på bredden */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px !important;
+    /* Juster margin for afstand */
+  }
 
-.kontakt-sektion {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-}
+  .kontakt-sektion {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
 
-.kontakt-container {
-  background-color: #fff;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  max-width: 600px;
-  width: 100%;
-}
+  .kontakt-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
 
-h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 2px solid #333;
-  display: inline-block;
-}
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    display: inline-block;
+  }
 
-.beskrivelse {
-  color: #777;
-  margin-bottom: 30px;
-}
+  .beskrivelse {
+    color: #777;
+    margin-bottom: 30px;
+  }
 
-.kontakt-formular {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+  .kontakt-formular {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.form-gruppe {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
+  .form-gruppe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-label {
-  font-size: 0.9em;
-  color: #555;
-  margin-bottom: 5px;
-}
+  label {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+  }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-bottom: 2px solid #ccc;
-  box-sizing: border-box;
-  font-size: 1em;
-}
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
 
-textarea {
-  resize: vertical;
-}
+  textarea {
+    resize: vertical;
+  }
 
-.besked-gruppe label {
-  margin-top: 15px;
-}
+  .besked-gruppe label {
+    margin-top: 15px;
+  }
 
-.send-knap {
-  background-color: #333;
-  color: #fff;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
+  .send-knap {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-.send-knap:hover {
-  background-color: #555;
-}
-
-
+  .send-knap:hover {
+    background-color: #555;
+  }
 
 
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
-}
+
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
